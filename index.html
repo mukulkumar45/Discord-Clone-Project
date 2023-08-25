@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="servers">
+        <div class="logo">
+            <img src="images/image.png" alt="Discord" onclick="audio.play()">
+        </div>
+        <div class="server-logo">
+            <span class="message1">10</span>
+            <img src="images/server1.jpg" alt="Server">
+        </div>
+        <div class="server-logo">
+            <span class="message1">26</span>
+            <img src="images/server2.webp" alt="Server">
+        </div>
+        <div class="server-logo">
+            <span class="message1">7</span>
+            <img src="images/server3.jpg" alt="Server">
+        </div>
+        <div class="server-logo">
+            <span class="message1">5</span>
+            <img src="images/server4.png" alt="Server">
+        </div>
+        <div class="server-logo">
+            <span class="message1">120</span>
+            <img src="images/server5.webp" alt="Server">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-top">
+            <input type="text" placeholder="find or start a conversation">
+        </div>
+        <div class="sidebar_icon">
+            <i class="fas fa-user-friends fa-lg"></i>
+            <span>Friends</span>
+        </div>
+        <div class="sidebar_icon">
+            <i class="fas fa-compact-disc fa-lg"></i>
+            <span>Nitro</span>
+        </div>
+        <div class="sidebar_users">
+            <div class="sidebar-userhead">
+                <div class="sidebar-head">
+                    <h4>Direct Messages</h4>
+                </div>
+                <i class="fas fa-plus  sidebar_adduser"></i>
+            </div>
+            <div>
+                <div class="sidebar-user active">
+                    <div>
+                        <span class="status"></span>
+                        <img src="images/user1.jpg" alt="User">
+                    </div>
+                    <h4>Systumm</h4>
+                </div>
+                <div class="sidebar-user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="images/user2.jpg" alt="User">
+                    </div>
+                    <h4>Jonathan</h4>
+                </div>
+                <div class="sidebar-user">
+                    <div>
+                        <span class="status"></span>
+                        <img src="images/user3.jpg" alt="User">
+                    </div>
+                    <h4>Carry Bahi</h4>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-profile">
+            <div>
+                <span class="status"></span>
+                <img src="images/user4.jpeg" alt="">
+            </div>
+            <div class="sidebar-profileInfo">
+                <h3>Modi Ji</h3>
+                <p>#0007</p>
+            </div>
+            <div class="sidebar-profileIcons">
+                <i class="fas fa-microphone"></i>
+                <i class="fas fa-headset"></i>
+                <i class="fas fa-cog"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat">
+        <div>
+            <div class="chathead">
+                <div class="left">
+                    <span class="chat-head">@</span>
+                    <h3>Systumm</h3>
+                </div>
+                <div class="right">
+                    <i class="fas fa-volume-phone fa-lg"></i>
+                    <i class="fas fa-video fa-lg"></i>
+                    <i class="fas fa-thumbtack fa-lg"></i>
+                    <i class="fas fa-user-plus fa-lg"></i>
+
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class="fas fa-search fa-lg"></i>
+                    </div>
+                    <i class="fas fa-inbox fa-lg"></i>
+                    <i class="fas fa-question-circle fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="chat-message">
+            <div class="message">
+                <img src="images/user1.jpg" alt="Systumm">
+                <div class="message-info">
+                    <h4>Systumm <span class="timestamp">15/08/2023</span></h4>
+                    <p>
+                        Modi Ji Suno
+                    </p>
+                </div>
+                <!-- <button class="cross-button">&times;</button> -->
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <i class="fas fa-plus-circle fa-lg"></i>
+            <form action="">
+                <input type="text" class="sendMessage" placeholder="Send Message">
+                <button class="send-input" type="submit">
+                    Send
+                </button>
+            </form>
+            <div class="chat-input-icon">
+                <i class="fas fa-gift fa-lg"></i>
+                <i class="fas fa-file-image fa-lg"></i>
+                <i class="fas fa-laugh fa-lg"></i>
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
